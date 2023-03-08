@@ -14,4 +14,3 @@ void logical_operator_use(char x) {
 	if x= 'X':
 		printf("\n %i" X);
 }
-s
