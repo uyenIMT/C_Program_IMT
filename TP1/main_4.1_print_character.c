@@ -4,11 +4,13 @@
 int main() {
     int a = 0, b = 0;
     for (int i = 0; i < 1000; i++) {
-        if (isprint(i)) {
-            putchar(i);
+        // a is printable
+        if (isprint(i)) { // isprint is printable
+            putchar(i); // print the character
             printf(" %d\n", i);
             a++;
         }
+        // b in non-printable
         else {
             b++;
         }

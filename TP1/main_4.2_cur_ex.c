@@ -1,4 +1,10 @@
 #include <stdio.h>
+/*
+This exercise can be more correct by calculating the ratio exchange of
+EUR_GBP by using these ratio USD_EUR and USD_GBP.
+In this program, I keep three of them separatedly to be same with your example
+(You asked to give inputs for 3 raio)
+*/
 
 // Currency exchange ratio
 double USD_EUR = 0.85; // 1 USD = 0.85 EUR
@@ -39,6 +45,7 @@ int main() {
     char input, output;
     double amount, result;
     
+    // Input of own exchange rates
     printf("Known exchange rates\n\n");
     printf("$ to € = %lf\n", USD_EUR);
     printf("$ to £ = %lf\n",USD_GBP);
@@ -76,7 +83,7 @@ int main() {
     printf("Press 3 for £\n");
     scanf(" %c", &input);
 
-    // Input amount
+    // Input amount to be exchanged
     printf("\nChoose the input amount.\n");
     scanf("%lf", &amount);
 
@@ -87,6 +94,7 @@ int main() {
     printf("Press 3 for £\n");
     scanf(" %c", &output);
 
+    // Use if else to list all possible cases
     if (input == '1' && output == '1') {
         // convert USD to USD
         result = amount;
