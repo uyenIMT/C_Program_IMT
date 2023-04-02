@@ -1,0 +1,1 @@
+void binary_to_text(char *binary_file, char *text_file);
