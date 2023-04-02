@@ -5,3 +5,6 @@ Temp/
 build/
 Project-msc-it-chat-main.zip
 Project-msc-it-chat-main/
+*.o
+*.out
+a.out
