@@ -46,6 +46,6 @@ int main(int argc, char *argv[]) {
 
 /*
 Compile:
-gcc -o a.out main_Uyen_E3.1.c -lm
-./a.out 3 0.6 20
+$ gcc -o main_Uyen_E3.1.out main_Uyen_E3.1.c -lm
+$ ./main_Uyen_E3.1.out 3 0.6 20
 */

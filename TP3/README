@@ -1,0 +1,24 @@
+Welcome to the TP3!
+
+When you do 'make, all the files are executed.
+The output file are corresponding to main files:
+- main_Uyen_E3.1.out
+- main_Uyen_E3.2.out
+- packing_NGUYEN.out
+
+To see the result of each program:
+- Exe 2.1: $ ./main_Uyen_E3.1.out.out 3 0.6 20
+- Exe 2.2: $ ./main_Uyen_E3.2.out
+- Exe 2.3.1: $ ./packing_NGUYEN.out
+    + Enter the name of the packed file: "Name of bin output and input_unpacked"
+    + Enter the number of files to pack: "How many files do you want?"
+    + Enter the name of file 1: "File name 1"
+    + Enter the name of file 2: "File name 2"
+    Example:
+    + Enter the name of the packed file: Test_it
+    + Enter the number of files to pack: 2
+    + Enter the name of file 1: file1.txt
+    + Enter the name of file 2: file2.jpg
+
+
+

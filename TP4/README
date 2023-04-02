@@ -1,0 +1,4 @@
+The problem with the program is that before comparing to array elements, the variable max is not initialized to a value.
+As a result, the program might print the incorrect value as the maximum value.
+This problem can be resolved by setting the variable max to the array's first element and then comparing it to the other elements.
+

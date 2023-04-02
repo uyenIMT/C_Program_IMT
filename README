@@ -1,0 +1,6 @@
+Welcome to the C world!
+Let's go to each TPx folder, then:
+$ cd build
+$ cmake ..
+
+

@@ -12,7 +12,7 @@ int main() {
 
 /*
 Compile:
-gcc -c binary_to_text.c
-gcc -o a.out main_Uyen_E3.2.c binary_to_text.o -lm
-./a.out
+$ gcc -c binary_to_text.c
+$ gcc -o main_Uyen_E3.2.out main_Uyen_E3.2.c binary_to_text.o -lm
+$ ./main_Uyen_E3.2.out
 */

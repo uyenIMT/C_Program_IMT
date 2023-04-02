@@ -1,5 +1,7 @@
+# Declare the compilation
 CC=gcc
 
+# Declare the output
 all: myprog.hello main_Uyen_E1.2.out main_Uyen_E1.3.1.out main_Uyen_E1.3.2.out main2.4.1.out main2.4.2.out
 
 # Compile the exercise TP1.1
