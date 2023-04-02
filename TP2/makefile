@@ -16,3 +16,7 @@ main2.3.out: main_Uyen_E2.3.c exchange.o
 
 main2.4.out: main_Uyen_E2.4.c exchange.o
 	$(CC) -o main2.4.out main_Uyen_E2.4.c exchange.o
+
+#Clean all executed files
+clean:
+	rm -f *.o *.out *.hellos
