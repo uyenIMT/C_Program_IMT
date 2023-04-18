@@ -1,0 +1,8 @@
+Goal to achieve :
+- Add support for more than two clients
+- Change the way the server stores the client connected such that more than two clients can connect and chat via the server.
+- Add support for changing the port
+- Listen to and accept new connections, the server needs to specify on which port it listens. In the current version of the application, the server’s port is specify as a macro in the code (both for the client and the server). Sometimes, this port might not be available on the machine the server is running, so we would like to be able to change the port without having to recompile the applications.
+- Add message saves
+There are 6 C files: chat.c, client.c, serialserver.c, server.c, chat.h and server.h.
+Please check quality codes below satisfying the requirement or not. If there is no problems, how can I compile this program and how to set the input?
